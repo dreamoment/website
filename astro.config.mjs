@@ -17,5 +17,5 @@ export default defineConfig({
   integrations: [tailwind(), alpinejs(), image(), mdx()],
   site: 'https://dreamoment.github.io',
   outDir: './docs',
-  base: '/docs',
+  base: '/website',
 });
