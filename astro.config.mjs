@@ -15,6 +15,7 @@ import mdx from "@astrojs/mdx";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), alpinejs(), image(), mdx()],
+  site: 'https://astronaut.github.io',
   outDir: './docs',
   base: '/docs',
 });
